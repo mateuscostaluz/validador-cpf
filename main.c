@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 // nao utilizado, mas serve para retornar a quantidade de digitos de um numero qualquer
-// retorna a quantidade de dígitos do CPF
+// retorna a quantidade de digitos do CPF
 int tamanhoCpf(int cpf, int x) {
     if(cpf == 0) {
         return x;
@@ -76,7 +76,7 @@ int main() {
         // printf("[%d]", cpf[i]); // para verificar a conversao
         testeIgual += cpf[i];
     }
-    if(testeIgual / 11 == cpf[i - 1] && testeIgual % 11 == 0) { //testa se todos os numeros sao iguais
+    if(testeIgual / 11 == cpf[i - 1] && testeIgual % 11 == 0) { // testa se todos os numeros sao iguais
         printf("CPF invalido.");
     }
     else{
