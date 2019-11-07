@@ -79,7 +79,7 @@ int main() {
     if(testeIgual / 11 == cpf[i - 1] && testeIgual % 11 == 0) { // testa se todos os numeros sao iguais
         printf("CPF invalido.");
     }
-    else{
+    else {
         validarCpf(cpf);
     }
     return 0;
