@@ -1,2 +1,2 @@
 # validador-cpf
-Validador de CPF simples, feito em linguagem C.
+Validador de CPF feito em linguagem C.
